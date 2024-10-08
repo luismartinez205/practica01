@@ -3,6 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  font-family:roboto ;
+  font-weight: 300;
+}
 
 .hero {
   width: 100%;
@@ -83,6 +87,31 @@
   position: relative;
   left: 23px;
   bottom: -2px;
+}
+
+.main_title{
+  color: rgba(0, 0, 255, 0.493);
+  text-align: center;
+  margin: 53px;
+}
+
+.main{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+}
+
+.main_img{
+  width: 200px;
+  
+}
+
+.main_paragraf{
+  background-color:rgb(244, 244, 247);
+  width: 50%;
+  margin-top: 30px;
+  text-align:justify ;
+
 }
 
 /*estaba en 480 y cambie a 640px*/
