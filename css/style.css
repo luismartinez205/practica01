@@ -132,9 +132,10 @@ body{
   }
   .hero_img_html {
     position: relative;
-    bottom: 219px;
-    right: 139px;
+    bottom: 218px;
+    left: -142px;
     width: 106px;
+
   }
 
   .hero_img {
