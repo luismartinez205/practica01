@@ -169,6 +169,7 @@ body{
     position: relative;
     top: 243px;
     font-size: 17px;
+    margin-left: 10px;
   }
   .navbar {
     background-color: rgb(231, 234, 238);
