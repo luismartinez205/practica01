@@ -64,10 +64,10 @@ body{
 }
 
 .hero_img_html {
-  position: relative;
-  bottom: 222px;
-  right: -316px;
-  width: 106px;
+    position: relative;
+    bottom: 222px;
+    left: 400px;
+    width: 106px;
 }
 .nav {
   display: flex;
@@ -76,17 +76,20 @@ body{
 }
 
 .nav_img {
-  position: relative;
-  top: 6px;
-  right: -10px;
-  width: 5.7%;
-  height: 80%;
+    position: relative;
+    top: 0px;
+    right: -10px;
+    width: 89px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
 .nav_home {
-  position: relative;
-  left: 23px;
-  bottom: -2px;
+    position: relative;
+    left: 23px;
+    bottom: -2px;
+    width: 1rem;
+    margin-right: 10px;
 }
 
 .main_title{
