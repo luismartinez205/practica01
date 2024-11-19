@@ -13,6 +13,7 @@ body{
   justify-content: flex-start;
 }
 
+
 .hero {
   width: 100%;
   height: 300px;
@@ -174,18 +175,30 @@ body{
 }
 .btn-bg{
   background-image: url("https://miro.medium.com/v2/resize:fit:730/1*ZAOQ_hsNNjO1CEEeSB75eQ.png");
-  width: 72px;
-  height: 54px;
+  width: 41px;
+  
   background-size: cover;
   background-position: center;
 }
 /*estaba en 480 y cambie a 640px*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  .container_visible{
+    visibility: hidden;
+  }
   .btn-menu{
     display: block;
   }
   .container{
-    display: none;
+    display: block;
+    background-color: #3247e4;
+    width: 361px;
+    height: 187px;
+    z-index: 100;
+    font-weight: 400;
+    margin-top: 40px;
+    padding: 3px;
+    /* transition: 0.5s 10ms; */
+    border-radius: 15px;;
     }
   .main_img {
     width: 357px;
@@ -225,6 +238,7 @@ body{
     right: -11px;
     width: 6.7%;
     height: 59%;
+    display: none;
   }
   .hero_img_html {
     position: relative;
@@ -257,11 +271,15 @@ body{
   }
 
   .nav-link {
+    color: white;
     display: inline-block;
     text-decoration: none;
     margin: 13px;
     padding: 9px;
     font-family: roboto;
-    font-size: 13px;
+    font-size: 17px;
+  }
+  .nav{
+    
   }
 }
