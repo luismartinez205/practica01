@@ -166,6 +166,10 @@ body{
 }
 /*estaba en 480 y cambie a 640px*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  
+  .main_img {
+    width: 400px;
+}
   .cardgroup {
      flex-direction: column;
      gap: 20px;
