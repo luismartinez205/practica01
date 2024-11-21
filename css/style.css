@@ -226,8 +226,16 @@ body{
   background-color: blue;
   height: 4px;
 }
+iframe{
+  width: 546px;
+  height: 300px;
+}
 /*estaba en 480 y cambie a 640px*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  iframe {
+    width: 328px;
+    height: 300px;
+}
 
 .btn_w {
   width: 320px;
@@ -254,7 +262,9 @@ body{
     width: 90%;
     height: 400px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    gap: 0px; 
+    align-items: start;  
 }
 
 .section {
