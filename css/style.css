@@ -292,7 +292,8 @@ iframe{
     padding: 3px;
     /* transition: 0.5s 10ms; */
     border-radius: 15px;
-    
+    position: absolute;
+    bottom: 192px;
     }
   .main_img {
     width: 357px;
